@@ -1,0 +1,12 @@
+
+def three_or_five(set_number)
+  numbers = []
+  for number in 1..set_number
+    if number % 3 == 0 || number % 5 == 0
+      numbers.push(number)
+    end
+  end
+  puts numbers.sum()
+end
+
+three_or_five(1000)
