@@ -6,7 +6,7 @@ def three_or_five(set_number)
       numbers.push(number)
     end
   end
-  puts numbers.sum()
+  return numbers.sum()
 end
 
-three_or_five(1000)
+puts three_or_five(1000)
